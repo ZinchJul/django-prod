@@ -16,6 +16,6 @@ services:
         max-file: "10"
         max-size: "200k"
     volums:
-      - ./mysite/database:/app
+      - ./mysite/database:/app/database
     envfile:
       - .env
